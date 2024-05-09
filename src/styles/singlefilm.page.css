@@ -1,0 +1,87 @@
+/** @format */
+
+.singleFilmPage-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #111;
+  color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.singleFilmPage-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.singleFilmPage-poster {
+  max-width: 300px;
+  margin-right: 20px;
+}
+
+.singleFilmPage-filmStats {
+  flex-grow: 1;
+}
+
+.singleFilmPage-filmStats h1 {
+  color: #ffcc00;
+}
+
+.singleFilmPage-filmStats p {
+  margin-bottom: 10px;
+}
+
+.singleFilmPage-filmStats a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.singleFilmPage-filmStats a:hover {
+  color: #ffcc00;
+}
+
+.navigation-links {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-link {
+  color: gold;
+  text-decoration: none;
+  transition: color 0.3s;
+  margin-bottom: 80px;
+  font-size: 2rem;
+}
+
+.films-link {
+  color: gold;
+  text-decoration: none;
+  transition: color 0.3s;
+  margin-bottom: 80px;
+  font-size: 2rem;
+}
+
+.active {
+  color: green;
+  animation: heartbeat 3s infinite;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  14% {
+    transform: scale(1.3);
+  }
+  28% {
+    transform: scale(1);
+  }
+  42% {
+    transform: scale(1.3);
+  }
+  70% {
+    transform: scale(1);
+  }
+}

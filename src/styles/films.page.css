@@ -1,0 +1,38 @@
+.filmsLanding-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #111;
+  color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.filmsLanding-title {
+  text-align: center;
+  color: #ffcc00;
+}
+
+.filmsLanding-listings {
+  list-style-type: none;
+  padding: 0;
+}
+
+.filmsLanding-listings li {
+  padding: 10px 0;
+  
+}
+
+.filmsLanding-listings li:last-child {
+  border-bottom: none;
+}
+
+.film-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.film-link:hover {
+  color: #ffcc00;
+}

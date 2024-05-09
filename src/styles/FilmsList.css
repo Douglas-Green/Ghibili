@@ -1,0 +1,30 @@
+/** @format */
+
+.filmsList-container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.filmsList-listings {
+  list-style-type: none;
+  padding: 0;
+}
+
+.filmsList-listings li {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  cursor: pointer;
+}
+
+.filmsList-listings li:hover {
+  background-color: #555;
+}
+
+.filmsList-listings li:last-child {
+  border-bottom: none;
+}
